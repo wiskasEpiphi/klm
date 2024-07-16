@@ -41,7 +41,7 @@ fn main() {
     // Apply a bidirectional filter to the data
     let filtered_data_paso_bajo = filter_bajo.bidirectional(&data).unwrap();
 
-    // Assuming the sample rate is 100 Hz, design a 4th order lowpass filter with an 8 Hz cutoff
+    // Assuming the sample rate is 100 Hz, design a 4th order highpass filter with an 8 Hz cutoff
     let filter_alto = Filter::new(4, 100., Cutoff::HighPass(8.)).unwrap();
     // Apply a bidirectional filter to the data
     let filtered_data_paso_alto = filter_alto.bidirectional(&data).unwrap();
