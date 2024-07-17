@@ -322,6 +322,7 @@ name = "klm"
 version = "0.1.0"
 dependencies = [
  "butterworth",
+ "libm",
  "plotly",
  "spectrum-analyzer",
 ]

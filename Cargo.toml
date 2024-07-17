@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2021"
 [dependencies]
 butterworth = "0.1.0"
+libm = "0.2.8"
 plotly = "0.9.0"
 spectrum-analyzer = "1.5.0"
